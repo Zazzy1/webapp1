@@ -14,7 +14,7 @@ namespace DbApp1.Controllers
     {
         private bivasdbEntities db = new bivasdbEntities();
 
-       
+       //Dummy Comment1aa
         public ActionResult Index()
         {
             return View(db.Emps.ToList());
